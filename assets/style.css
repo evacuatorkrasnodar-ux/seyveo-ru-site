@@ -39,17 +39,17 @@ h1,h2,h3,p{margin-top:0}
   .menu-toggle{display:inline-flex}
   .menu-panel[aria-hidden="false"]{display:flex;position:absolute;top:74px;left:0;right:0;padding:22px 25px 27px;gap:20px;flex-direction:column;background:var(--bg);border-bottom:1px solid var(--stroke);box-shadow:0 15px 25px var(--shadow)}
   .menu-panel a{font-size:14px;color:var(--muted)}
-  .hero{padding:34px 0 54px}
+  .hero{padding:24px 0 48px}
   .hero-grid{grid-template-columns:minmax(0,1fr);grid-template-areas:"heading" "plasma" "details";grid-template-rows:auto auto auto;row-gap:0;min-height:0}
   .hero-heading{grid-area:heading}
   .hero-heading .eyebrow{font-size:9px;letter-spacing:.14em;line-height:1.6}
-  .hero-heading h1{font-size:clamp(42px,10.5vw,68px);line-height:1.04;max-width:590px;margin:18px 0 8px}
-  .hero-plasma{grid-area:plasma;min-height:0;max-width:330px;width:min(100%,330px);margin:0 auto 7px}
+  .hero-heading h1{font-size:clamp(41px,10vw,66px);line-height:1.04;max-width:590px;margin:14px 0 4px}
+  .hero-plasma{grid-area:plasma;min-height:0;max-width:292px;width:min(100%,292px);margin:0 auto 3px}
   .orb{width:100%}
   .hero-details{grid-area:details}
-  .hero-details .intro{margin:0 0 20px;max-width:530px;font-size:14px;line-height:1.65}
+  .hero-details .intro{margin:0 0 15px;max-width:530px;font-size:14px;line-height:1.56}
   .hero-details .actions{margin:0;gap:10px}
-  .hero-details .fineprint{margin:16px 0 0;max-width:510px}
+  .hero-details .fineprint{margin:13px 0 0;max-width:510px}
   .section{padding:66px 0}
   .section-head{display:block;margin-bottom:27px}
   .section-head h2{font-size:42px}
@@ -72,6 +72,6 @@ h1,h2,h3,p{margin-top:0}
   .tool{min-height:35px;padding:0 9px}
   .tools{gap:4px}
   .hero-heading h1{font-size:clamp(35px,10vw,41px)}
-  .hero-plasma{max-width:285px;width:min(100%,285px)}
+  .hero-plasma{max-width:258px;width:min(100%,258px)}
   .section-head h2{font-size:37px}
 }
