@@ -139,3 +139,59 @@ h1,h2,h3,p{margin-top:0}
   .product-visual{width:min(100%,254px)}
   .product-card{padding:21px 20px}
 }
+
+
+/* SEYVEO · search-intent topic pages, prelaunch · 22.10.2026 */
+.topic-header{padding:35px 0 69px}
+.topic-breadcrumb{display:flex;align-items:center;gap:11px;flex-wrap:wrap;color:var(--soft);font-size:11px;margin-bottom:43px}
+.topic-breadcrumb a:hover{color:var(--fg)}
+.topic-head-grid{display:grid;grid-template-columns:minmax(0,1.17fr) minmax(240px,.83fr);align-items:center;gap:42px}
+.topic-head-grid h1{font-size:clamp(49px,5.9vw,76px);font-weight:560;letter-spacing:-.072em;line-height:1.065;margin:22px 0}
+.topic-head-grid h1 span{color:var(--soft)}
+.topic-orb{display:grid;place-items:center}
+.topic-orb .orb{width:min(100%,315px)}
+.topic-layout{display:grid;grid-template-columns:minmax(0,1.32fr) minmax(270px,.68fr);gap:55px;align-items:start}
+.topic-content h2{font-size:clamp(29px,3.3vw,45px);line-height:1.12;letter-spacing:-.058em;font-weight:560;margin:17px 0 20px}
+.topic-content .topic-intro{font-size:15px;line-height:1.82;color:var(--muted);margin:0 0 30px}
+.topic-steps{list-style:none;margin:0;padding:0}
+.topic-steps li{padding:20px 0 22px;border-top:1px solid var(--stroke)}
+.topic-steps li:last-child{border-bottom:1px solid var(--stroke)}
+.topic-steps h3{font-size:17px;line-height:1.45;letter-spacing:-.025em;font-weight:550;margin:0 0 8px}
+.topic-steps h3 span{font-size:11px;letter-spacing:0;color:var(--soft);font-weight:480;margin-right:8px}
+.topic-steps p{color:var(--muted);font-size:13px;line-height:1.76;margin:0 0 0 35px}
+.topic-sources{padding-top:36px}
+.topic-sources h2{font-size:24px;line-height:1.22;letter-spacing:-.04em;margin:0 0 15px}
+.topic-sources p{font-size:13px;line-height:1.85;color:var(--muted)}
+.topic-sources a{text-decoration:underline;text-underline-offset:4px;color:var(--fg)}
+.topic-context{position:sticky;top:110px}
+.topic-context-card{padding:28px 26px;border-radius:25px;background:var(--surface);border:1px solid var(--stroke-strong)}
+.topic-context-card h2{font-size:25px;line-height:1.14;font-weight:540;letter-spacing:-.055em;margin:17px 0 18px}
+.topic-context-card p{font-size:13px;line-height:1.72;color:var(--muted)}
+.topic-context-card blockquote{margin:18px 0;border-left:2px solid var(--fg);padding:5px 0 5px 15px;font-size:16px;font-weight:500;line-height:1.48}
+.topic-context-card .topic-answer{color:var(--fg);font-size:13px}
+.topic-context-card .topic-disclaimer{font-size:11px;line-height:1.7;color:var(--soft);margin:20px 0}
+.topic-context-card .btn{width:100%;justify-content:center}
+.topic-side-note{font-size:11px;line-height:1.7;color:var(--soft);margin:14px 4px 0}
+.topic-bottom{display:flex;align-items:center;justify-content:space-between;gap:40px}
+.topic-bottom h2{font-size:clamp(31px,3.4vw,48px);letter-spacing:-.065em;font-weight:540;margin:17px 0}
+.topic-bottom p{font-size:13px;line-height:1.7;color:var(--muted);max-width:510px;margin:0}
+.topic-bottom .btn{white-space:nowrap}
+.topic-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:32px}
+.topic-links a{font-size:12px;border:1px solid var(--stroke);border-radius:20px;padding:10px 15px;color:var(--muted)}
+.topic-links a:hover{color:var(--fg);border-color:var(--stroke-strong)}
+@media(max-width:1020px){.topic-layout{gap:27px;grid-template-columns:minmax(0,1.15fr) minmax(250px,.85fr)}.topic-context-card{padding:24px 21px}}
+@media(max-width:760px){
+.topic-header{padding:20px 0 45px}
+.topic-breadcrumb{margin-bottom:26px}
+.topic-head-grid{display:flex;flex-direction:column;gap:12px;align-items:stretch}
+.topic-head-grid h1{font-size:clamp(37px,9vw,56px);margin:15px 0}
+.topic-head-grid .product-lead{font-size:14px;line-height:1.65}
+.topic-orb{display:none}
+.topic-layout{display:flex;flex-direction:column;gap:32px}
+.topic-content h2{font-size:35px}
+.topic-content .topic-intro{font-size:14px}
+.topic-content,.topic-context{width:100%}
+.topic-context{position:static}
+.topic-bottom{align-items:start;flex-direction:column;gap:22px}
+.topic-bottom .btn{white-space:normal}
+}
